@@ -6,7 +6,7 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 
 **All times are Eastern Standard Time**
 
-**Day 1** Tuesday, February 16, 2021 ~Presenters will be available to answer questions for 15 minutes after the end of their presentations~
+**Day 1** Tuesday, February 16, 2021. Presenters will be available to answer questions for 15 minutes after the end of their presentations.
 
 | Time | Topic | Link |
 | -------- | -------- | -------- |
