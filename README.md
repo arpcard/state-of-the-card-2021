@@ -9,7 +9,7 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 **Day 1** Tuesday, February 16, 2021
 
 | Time | Topic | Presenter | Link |
-| -------- | -------- | -------- |
+| -------- | -------- | -------- | -------- |
 | 8:00-9:00 am | State of the CARD 2021 Lecture | Dr. Andrew McArthur | live presentation, recording available afterwards |
 | 9:15-9:45 am | Antibiotic Resistance Ontology, Resistomes & Variants | Dr. Andrew McArthur | live presentation, recording available afterwards |
 | 10:00-10:30 am | Resistance Gene Identifier | Mr. Amos Raphenya | live presentation, recording available afterwards |
@@ -20,7 +20,7 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 Presenters will be available to answer questions for 15 minutes after the end of their presentations.
 
 | Time | Topic | Presenter | Link |
-| -------- | -------- | -------- |
+| -------- | -------- | -------- | -------- |
 | pre-recorded | CARD Website Demonstration | Mr. William Huynh | link pending |
 | pre-recorded | Command line - Installing RGI | Mr. Amos Raphenya | link pending |
 | pre-recorded | Command line - RGI for Genomes or Assemblies | Mr. Amos Raphenya | link pending |
@@ -29,7 +29,7 @@ Presenters will be available to answer questions for 15 minutes after the end of
 **Day 2** Wednesday, February 17, 2021
 
 | Time | Topic | Presenter | Link |
-| -------- | -------- | -------- |
+| -------- | -------- | -------- | -------- |
 | 8:00-10:00 am | Open Question & Answer Help Session | Amos Raphenya, William Huynh, Brian Alcock | link pending |
 | 3:00-5:00 pm | Open Question & Answer Help Session | Amos Raphenya, William Huynh, Brian Alcock | link pending |
 
