@@ -6,7 +6,7 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 
 **All times are Eastern Standard Time**
 
-**Day 1** Tuesday, February 16, 2021
+**Day 1** Tuesday, February 16, 2021 ~Presenters will be available to answer questions for 15 minutes after the end of their presentations~
 
 | Time | Topic | Link |
 | -------- | -------- | -------- |
@@ -16,8 +16,6 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 | 2:30-3:30 pm | State of the CARD 2021 Lecture | repeat live presentation |
 | 3:45-4:15 pm | Antibiotic Resistance Ontology, Resistomes & Variants | repeat live presentation |
 | 4:30-5:00 pm | Resistance Gene Identifier | repeat live presentation |
-
-Presenters will be available to answer questions for 15 minutes after the end of their presentations.
 
 | Time | Topic | Link |
 | -------- | -------- | -------- |
