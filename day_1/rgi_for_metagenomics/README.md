@@ -1,9 +1,5 @@
 # Command Line RGI for metagenomics & pathogen-of-origin prediction
 
-Thursday, February 21, 2 – 4 pm MDCL 3410
-
-https://www.eventbrite.ca/e/command-line-rgi-for-metagenomics-tickets-55714013113
-
 A training session on CARD’s latest software tools (beta testing) for analysis of metagenomic reads, including an overview of the Burrows Wheeler Transform, the importance of diverse reference sequences, and k-mer algorithms for prediction of pathogen-of-origin of AMR genes.
 
 CARD Members: Amos Raphenya, Brian Alcock, Andrew McArthur

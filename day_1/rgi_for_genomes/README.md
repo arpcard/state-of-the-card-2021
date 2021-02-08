@@ -1,9 +1,5 @@
 # Command Line RGI for genomes & genome assemblies: resistome annotation and visualization
 
-Thursday, February 21, 10 am – 12 pm MDCL 2247
-
-https://www.eventbrite.ca/e/command-line-rgi-for-genomes-tickets-55713945912
-
 A training session on how to analyze genomes, genome assemblies, or metagenomic assemblies using RGI at the command line, plus an introduction to publication grade heat map generation.
 
 CARD Members: Amos Raphenya, Brian Alcock, Andrew McArthur
