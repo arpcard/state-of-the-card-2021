@@ -33,7 +33,7 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 | Time | Topic | Link |
 | -------- | -------- | -------- | 
 | 8:00-10:00 am | Open Question & Answer Help Session | live |
-| 12:00-5:00 pm | Private 30 minute appointments with a member of the CARD team | [https://forms.gle/DFhZnS8gHZu893fm8](Sign up for a Private ZOOM Meeting) |
+| 12:00-5:00 pm | Private 30 minute appointments with a member of the CARD team | [Sign up for a Private ZOOM Meeting](https://forms.gle/DFhZnS8gHZu893fm8) |
 | 3:00-5:00 pm | Open Question & Answer Help Session | live |
 
 Requests for private meetings will be moderated by McMaster's Industrial Liaison Office.
