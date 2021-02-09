@@ -56,17 +56,14 @@ mv jellyfish-linux jellyfish
 mv jellyfish /usr/bin 
 
 # download rgi master branch ahead of releases
-wget -O software.tar.bz2 https://github.com/arpcard/rgi/archive/master.zip
-mkdir -p software
-tar xvf software.tar.bz2 -C software
-rm software.tar.bz2
+wget https://github.com/arpcard/rgi/archive/master.zip && unzip master.zip && rm master.zip
 
 
 # install and test rgi
-pip3 install -r ./software/rgi-master/requirements.txt && pip3 install ./software/rgi-master/
+pip3 install -r ./rgi-master/requirements.txt && pip3 install ./rgi-master/
 
 # remove folder
-rm -r software
+rm -r rgi-master
 
 # load CARD databases using auto_load locally
 rgi auto_load  --local --debug --clean
