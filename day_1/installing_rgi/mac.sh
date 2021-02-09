@@ -17,17 +17,17 @@ eval "$(pyenv init -)"
 
 # Usage: Once you have installed pyenv and activated it, you can install different versions of python and choose which one you can use. 
 # Example:
-pyenv install 2.7.5
+pyenv install 3.9.1
 
 # You can check the versions you have installed with:
 pyenv versions
 
 # And you can switch between python versions with the command:
 pyenv global 3.6.1
-pyenv global 2.7.10
+pyenv global 3.9.1
 
 # Also you can set a python version for the current directory with:
-pyenv local 2.7.10
+pyenv local 3.9.1
 pyenv local 3.6.1
 
 # You can check by running python --version:
@@ -50,31 +50,29 @@ wget http://github.com/bbuchfink/diamond/releases/download/v0.8.36/diamond-linux
 tar xvf diamond-linux64.tar.gz && \
 mv diamond /usr/bin
 
-# download rgi
-wget -O software.tar.bz2 https://github.com/arpcard/rgi/archive/4.2.2.tar.gz
+# install Jellyfish using executable
+wget https://github.com/gmarcais/Jellyfish/releases/download/v2.2.10/jellyfish-macosx
+mv jellyfish-linux jellyfish
+mv jellyfish /usr/bin 
+
+# download rgi master branch ahead of releases
+wget -O software.tar.bz2 https://github.com/arpcard/rgi/archive/master.zip
 mkdir -p software
 tar xvf software.tar.bz2 -C software
 rm software.tar.bz2
 
 
 # install and test rgi
-cd software/rgi-4.2.2/
-pip3 install -r requirements.txt && \
-pip3 install . && \
-bash test.sh
+pip3 install -r ./software/rgi-master/requirements.txt && pip3 install ./software/rgi-master/
 
-# install Jellyfish
-wget https://github.com/gmarcais/Jellyfish/archive/v2.2.10.tar.gz
-tar 
-./configure --prefix=/usr/bin
-make -j 4
-make install
+# remove folder
+rm -r software
 
-# or use executable
+# load CARD databases using auto_load locally
+rgi auto_load  --local --debug --clean
 
-wget https://github.com/gmarcais/Jellyfish/releases/download/v2.2.10/jellyfish-macosx
-mv jellyfish-linux jellyfish
-mv jellyfish /usr/bin 
+# check installed databases
+rgi database -v --local --all
 
 # Done.
 echo "Done."
