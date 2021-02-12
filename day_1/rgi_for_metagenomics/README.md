@@ -15,7 +15,7 @@ This module gives an introduction to prediction of antimicrobial resistome based
 
 The Resistance Gene Identifier for metagenomics (RGI*BWT for short) has several key features:
 
-* Use of common read alignment tools such as BWA or Bowtie2 to align sequencing reads to CARD reference sequences.
+* Use of common read alignment tools such as KMA, BWA or Bowtie2 to align sequencing reads to CARD reference sequences.
 * Reference sequences can either be the canonical CARD reference data (i.e. genes in peer reviewed published literature, with clear experimental evidence of elevated MIC) or the canonical CARD reference data *plus* the *in silico* predicted AMR allelic diversity available in [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes). Inclusion of the latter is highly recommended.
 * If [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) data are included, epidemiological interpretive data are provided from [CARD Prevalence](https://card.mcmaster.ca/prevalence).
 * Custom k-mer classifiers for pathogen-of-origin & plasmid prediction for detected AMR sequences.
@@ -34,39 +34,11 @@ mkdir rgigenomes
 cd rgigenomes
 ```
 
-First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges. This is not supported on UPPSALA.
+First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges or locally. The `rgi auto_load` command will add the [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) and [CARD Prevalence](https://card.mcmaster.ca/prevalence) data, and precompiled k-mer reference data too.
 
 ```bash
-rgi load -h
-wget https://card.mcmaster.ca/latest/data
-tar -xvf data ./card.json
-rgi card_annotation -i card.json > annotation.log 2>&1
-rgi load -i card.json --local
-ls
-```
-
-Note that the next command depends on the version of CARD data and may need to be updated. **Also note that if you have already created database and k-mer files for RGI for genomes/assemblies, the command below is the only additional command needed to set-up for RGI metagenomics**:
-
-```
-rgi load -i card.json --card_annotation card_database_v3.0.1.fasta --local --debug
-ls
-```
-
-Next, let's get the [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) and [CARD Prevalence](https://card.mcmaster.ca/prevalence) data.
-
-```
-wget -O wildcard_data.tar.bz2 https://card.mcmaster.ca/latest/variants
-mkdir -p wildcard
-tar -xvf wildcard_data.tar.bz2 -C wildcard
-ls
-```
-
-Lastly, we need to create the k-mer reference data (**this will take a lot of time, precompiled reference data available from your instructor**). Note that the next commands depend on the version of CARD data and may need to be updated:
-
-```
-rgi kmer_build -h
-rgi kmer_build -i wildcard/ -c card_database_v3.0.1.fasta -k 61 > kmer_build.61.log 2>&1
-rgi load --kmer_database 61_kmer_db.json --amr_kmers all_amr_61mers.txt --kmer_size 61 --local --debug > kmer_load.61.log 2>&1
+rgi auto_load -h
+rgi auto_load --local
 ls
 ```
 
@@ -76,7 +48,7 @@ Lanza et al. ([Microbiome 2018, 15:11](https://www.ncbi.nlm.nih.gov/pubmed/29335
 
 ```
 rgi bwt -h
-rgi bwt --read_one /home/agmcarthur/fastq/gut_R1.fastq.gz --read_two /home/agmcarthur/fastq/gut_R2.fastq.gz --aligner bowtie2 --output_file AMRmeta --debug --local --threads 8 --include_wildcard > AMRmeta.log 2>&1
+rgi bwt --read_one gut_R1.fastq.gz --read_two gut_R2.fastq.gz --aligner kma --output_file AMRmeta --debug --local --threads 8 --include_wildcard > AMRmeta.log 2>&1
 rgi kmer_query -n 8 -i AMRmeta.sorted.length_100.bam --bwt -k 61 --minimum 10 -o AMRmeta.sorted.length_100.bam.61 --local --debug > AMRmeta.sorted.length_100.bam.61.query.log 2>&1
 ```
 
