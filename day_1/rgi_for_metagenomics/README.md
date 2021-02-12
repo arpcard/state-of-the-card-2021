@@ -11,7 +11,7 @@ Requires RGI installed on your laptop or remote server or a RGI server account. 
 
 This module gives an introduction to prediction of antimicrobial resistome based on comparison of metagenomic DNA sequencing data to reference sequence information. While there is a large diversity of reference databases and software, this tutorial is focused on the Comprehensive Antibiotic Resistance Database ([CARD](http://card.mcmaster.ca)) for genomic AMR prediction.
 
-**It is highly recommended you familiarize yourself with CARD and the Resistance Gene Identifier (RGI) before completing this tutorial. In particular, see [Command Line RGI for genomes & genome assemblies: resistome annotation and visualization](https://github.com/arpcard/state-of-the-card-2019/tree/master/day_3/rgi_for_genomes)**.
+**It is highly recommended you familiarize yourself with CARD and the Resistance Gene Identifier (RGI) before completing this tutorial. In particular, see [Command Line RGI for genomes & genome assemblies: resistome annotation and visualization](https://github.com/arpcard/state-of-the-card-2021/tree/main/day_1/rgi_for_genomes)**.
 
 The Resistance Gene Identifier for metagenomics (RGI*BWT for short) has several key features:
 
