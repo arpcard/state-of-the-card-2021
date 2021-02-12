@@ -1,0 +1,40 @@
+Reference Sequence	Mapped reads with kmer DB hits	CARD*kmer Prediction	Single species (chromosome) reads	Single species (chromosome or plasmid) reads	Single species (plasmid) reads	Single species (no genomic info) reads	Single genus (chromosome) reads	Single genus (chromosome or plasmid) reads	Single genus (plasmid) reads	Single genus (no genomic info) reads	Promiscuous plasmid reads	Unknown taxonomy (chromosome) reads	Unknown taxonomy (chromosome or plasmid) reads	Unknown taxonomy (no genomic info) reads
+ARO:3000796|ID:121|Name:mdtF|NCBI:U00096	4	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	2	0	0
+ARO:3000830|ID:152|Name:cpxA|NCBI:BA000007.3	6	Escherichia coli (chromosome): 3; 	Escherichia coli: 3; 								0	3	0	0
+ARO:3000194|ID:389|Name:tetW|NCBI:AJ222769.3	1	Klebsiella pneumoniae (no genomic information): 1; 				Klebsiella pneumoniae: 1; 					0	0	0	0
+ARO:3000254|ID:540|Name:emrY|NCBI:D78168	5	Escherichia (chromosome or plasmid): 1; 						Escherichia: 1; 			0	0	4	0
+ARO:3001329|ID:603|Name:mdtG|NCBI:CP000800.1	2										0	0	2	0
+ARO:3000498|ID:621|Name:ErmF|NCBI:M17124	0										0	0	0	0
+ARO:3000832|ID:1015|Name:evgA|NCBI:BA000007.3	4	Escherichia (chromosome or plasmid): 2; 						Escherichia: 2; 			0	0	2	0
+ARO:3002660|ID:1031|Name:APH(6)-Id|NCBI:AF024602	4										0	0	4	0
+ARO:3000216|ID:1104|Name:acrB|NCBI:U00096.3	18	Escherichia coli (chromosome): 1; 	Escherichia coli: 1; 								0	17	0	0
+ARO:3001214|ID:1191|Name:mdtM|NCBI:U00096.3	7	Escherichia coli (chromosome): 5; 	Escherichia coli: 5; 								0	0	2	0
+ARO:3000616|ID:1231|Name:mel|NCBI:AF227521.1	6	Clostridioides difficile (chromosome): 3; Clostridioides difficile (no genomic information): 2; 	Clostridioides difficile: 3; 			Clostridioides difficile: 2; 					0	1	0	0
+ARO:3000205|ID:776|Name:tetX|NCBI:M37699	26										22	0	4	0
+ARO:3000793|ID:820|Name:mdtB|NCBI:U00096	10	Escherichia coli (chromosome): 2; Escherichia coli (chromosome or plasmid): 4; 	Escherichia coli: 2; 	Escherichia coli: 4; 							0	4	0	0
+ARO:3000237|ID:826|Name:TolC|NCBI:FJ768952	6	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	1	3	0
+ARO:3000412|ID:952|Name:sul2|NCBI:AY055428.1	8										0	0	8	0
+ARO:3000567|ID:945|Name:tet(40)|NCBI:AM419751	2										0	2	0	0
+ARO:3000829|ID:986|Name:baeS|NCBI:AP009048	7	Escherichia coli (chromosome): 3; Escherichia coli (chromosome or plasmid): 1; 	Escherichia coli: 3; 	Escherichia coli: 1; 							0	0	3	0
+ARO:3000074|ID:1847|Name:emrB|NCBI:U00096	16	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	14	0	0
+ARO:3000190|ID:2020|Name:tetO|NCBI:M18896.2	16	Enterococcus faecium (chromosome or plasmid): 1; 		Enterococcus faecium: 1; 							0	0	15	0
+ARO:3003386|ID:29|Name:Escherichia_coli_folP_with_mutation_conferring_resistance_to_sulfonamides|NCBI:U00096.3	6	Escherichia coli (no genomic information): 6; 				Escherichia coli: 6; 					0	0	0	0
+ARO:3004612|ID:3307|Name:Escherichia_coli_ampH_beta-lactamase|NCBI:AP012030.1	4	Escherichia coli (chromosome): 1; 	Escherichia coli: 1; 								0	3	0	0
+ARO:3003807|ID:2306|Name:Escherichia_coli_acrR_with_mutation_conferring_multidrug_antibiotic_resistance|NCBI:U00096.3	2										0	2	0	0
+ARO:3004720|ID:3402|Name:Tet(X4)|NCBI:MK134376.1	1										1	0	0	0
+ARO:3004043|ID:2661|Name:Escherichia_coli_acrA|NCBI:U00096.3	5										0	5	0	0
+ARO:3003751|ID:2267|Name:Escherichia_coli_nfsA_mutations_conferring_resistance_to_nitrofurantoin|NCBI:U00096.3	1	Escherichia coli (chromosome): 1; 	Escherichia coli: 1; 								0	0	0	0
+ARO:3001328|ID:37|Name:Escherichia_coli_mdfA|NCBI:JQ394987	7	Escherichia coli (chromosome): 3; 	Escherichia coli: 3; 								0	4	0	0
+ARO:3004290|ID:2843|Name:Escherichia_coli_ampC_beta-lactamase|NCBI:U00096.3	3	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	1	0	0
+ARO:3004588|ID:3298|Name:Klebsiella_pneumoniae_KpnG|NCBI:ACWO01000051.1	1										0	1	0	0
+ARO:3000794|ID:1315|Name:mdtC|NCBI:U00096	7	Escherichia coli (chromosome): 3; Escherichia coli (chromosome or plasmid): 2; 	Escherichia coli: 3; 	Escherichia coli: 2; 							0	0	2	0
+ARO:3000833|ID:1318|Name:evgS|NCBI:U00096	13										0	1	12	0
+ARO:3000828|ID:1337|Name:baeR|NCBI:AP009048.1	1										0	0	1	0
+ARO:3001817|ID:1422|Name:ACC-3|NCBI:AF180958	1	Escherichia coli (no genomic information): 1; 				Escherichia coli: 1; 					0	0	0	0
+ARO:3000491|ID:1427|Name:acrD|NCBI:AP009048.1	11	Escherichia coli (chromosome): 1; Escherichia coli (chromosome or plasmid): 3; 	Escherichia coli: 1; 	Escherichia coli: 3; 							0	1	6	0
+ARO:3000502|ID:1437|Name:AcrF|NCBI:U00096	12	Escherichia coli (chromosome): 1; Escherichia coli (chromosome or plasmid): 1; 	Escherichia coli: 1; 	Escherichia coli: 1; 							0	5	5	0
+ARO:3003548|ID:1442|Name:mdtN|NCBI:AP009048.1	1										0	0	1	0
+ARO:3000499|ID:1445|Name:AcrE|NCBI:U00096	4										0	0	4	0
+ARO:3000375|ID:1549|Name:ErmB|NCBI:AF242872.1	2										0	0	2	0
+ARO:3000027|ID:1757|Name:emrA|NCBI:AP009048	10	Klebsiella oxytoca (chromosome): 1; 	Klebsiella oxytoca: 1; 								0	9	0	0
+ARO:3002639|ID:1830|Name:APH(3'')-Ib|NCBI:AF313472	8										1	0	7	0

@@ -1,0 +1,40 @@
+ARO term	Mapped reads with kmer DB hits	CARD*kmer Prediction	Single species (chromosome) reads	Single species (chromosome or plasmid) reads	Single species (plasmid) reads	Single species (no genomic info) reads	Single genus (chromosome) reads	Single genus (chromosome or plasmid) reads	Single genus (plasmid) reads	Single genus (no genomic info) reads	Promiscuous plasmid reads	Unknown taxonomy (chromosome) reads	Unknown taxonomy (chromosome or plasmid) reads	Unknown taxonomy (no genomic info) reads
+mdtF	4	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	2	0	0
+cpxA	6	Escherichia coli (chromosome): 3; 	Escherichia coli: 3; 								0	3	0	0
+tetW	0										0	0	0	0
+emrY	5	Escherichia (chromosome or plasmid): 1; 						Escherichia: 1; 			0	0	4	0
+mdtG	2										0	0	2	0
+ErmF	0										0	0	0	0
+evgA	4	Escherichia (chromosome or plasmid): 2; 						Escherichia: 2; 			0	0	2	0
+APH(6)-Id	4										0	0	4	0
+acrB	18	Escherichia coli (chromosome): 1; 	Escherichia coli: 1; 								0	17	0	0
+mdtM	7	Escherichia coli (chromosome): 5; 	Escherichia coli: 5; 								0	0	2	0
+mel	4	Clostridioides difficile (chromosome): 3; 	Clostridioides difficile: 3; 								0	1	0	0
+tetX	26										22	0	4	0
+mdtB	10	Escherichia coli (chromosome): 2; Escherichia coli (chromosome or plasmid): 4; 	Escherichia coli: 2; 	Escherichia coli: 4; 							0	4	0	0
+TolC	6	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	1	3	0
+sul2	8										0	0	8	0
+tet(40)	2										0	2	0	0
+baeS	7	Escherichia coli (chromosome): 3; Escherichia coli (chromosome or plasmid): 1; 	Escherichia coli: 3; 	Escherichia coli: 1; 							0	0	3	0
+emrB	16	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	14	0	0
+tetO	16	Enterococcus faecium (chromosome or plasmid): 1; 		Enterococcus faecium: 1; 							0	0	15	0
+Escherichia coli folP with mutation conferring resistance to sulfonamides	0										0	0	0	0
+Escherichia coli ampH beta-lactamase	4	Escherichia coli (chromosome): 1; 	Escherichia coli: 1; 								0	3	0	0
+Escherichia coli acrR with mutation conferring multidrug antibiotic resistance	2										0	2	0	0
+Tet(X4)	1										1	0	0	0
+Escherichia coli acrA	5										0	5	0	0
+Escherichia coli nfsA mutations conferring resistance to nitrofurantoin	1	Escherichia coli (chromosome): 1; 	Escherichia coli: 1; 								0	0	0	0
+Escherichia coli mdfA	7	Escherichia coli (chromosome): 3; 	Escherichia coli: 3; 								0	4	0	0
+Escherichia coli ampC beta-lactamase	3	Escherichia coli (chromosome): 2; 	Escherichia coli: 2; 								0	1	0	0
+Klebsiella pneumoniae KpnG	1										0	1	0	0
+mdtC	7	Escherichia coli (chromosome): 3; Escherichia coli (chromosome or plasmid): 2; 	Escherichia coli: 3; 	Escherichia coli: 2; 							0	0	2	0
+evgS	13										0	1	12	0
+baeR	1										0	0	1	0
+ACC-3	0										0	0	0	0
+acrD	11	Escherichia coli (chromosome): 1; Escherichia coli (chromosome or plasmid): 3; 	Escherichia coli: 1; 	Escherichia coli: 3; 							0	1	6	0
+AcrF	12	Escherichia coli (chromosome): 1; Escherichia coli (chromosome or plasmid): 1; 	Escherichia coli: 1; 	Escherichia coli: 1; 							0	5	5	0
+mdtN	1										0	0	1	0
+AcrE	4										0	0	4	0
+ErmB	2										0	0	2	0
+emrA	10	Klebsiella oxytoca (chromosome): 1; 	Klebsiella oxytoca: 1; 								0	9	0	0
+APH(3'')-Ib	8										1	0	7	0
