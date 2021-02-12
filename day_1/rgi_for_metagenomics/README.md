@@ -23,7 +23,7 @@ The Resistance Gene Identifier for metagenomics (RGI*BWT for short) has several 
 
 ## Demonstration Data
 
-> We are going to use the data from Lanza et al paper.
+We are going to use the data from Lanza et al paper.
 
 ## Build the Reference Files
 
@@ -34,13 +34,7 @@ mkdir rgigenomes
 cd rgigenomes
 ```
 
-First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges or locally. The `rgi auto_load` command will add the [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) and [CARD Prevalence](https://card.mcmaster.ca/prevalence) data, and precompiled k-mer reference data too.
-
-```bash
-rgi auto_load -h
-rgi auto_load --local
-ls
-```
+First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges or locally. The `rgi auto_load` command will add the [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) and [CARD Prevalence](https://card.mcmaster.ca/prevalence) data, and precompiled k-mer reference data too. Please see demo on how to load CARD databases [here](https://github.com/arpcard/state-of-the-card-2021/blob/main/day_1/installing_rgi/linux.sh)
 
 ## Analyze Metagenomics Data
 

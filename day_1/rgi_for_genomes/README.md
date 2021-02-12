@@ -21,7 +21,7 @@ CARD’s website provides the ability to:
 
 ## Demonstration Data
 
-> If you are using your laptop instead of a CARD RGI account on UPPSALA, your instructor will provide you with a secure download link for the demonstration data. While this is anonymized data, it cannot be shared outside of the IIDR. Start this download now.
+We are going to use data from KK Tsang et al paper. ([Microb Genom 2021](https://www.ncbi.nlm.nih.gov/pubmed/33416461))
 
 ## CARD Detection Models
 
@@ -61,20 +61,12 @@ Take a peak at the list of *E. coli* samples and the options for the RGI softwar
 > Paths will be different if using your own laptop.
 
 ```bash
-ls /home/agmcarthur/ecoli_112_fasta
+ls ~/ecoli_112_fasta
 rgi -h
 ```
 
-First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges. This is not supported on UPPSALA.
+First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges or locally. The `rgi auto_load` command will add the [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) and [CARD Prevalence](https://card.mcmaster.ca/prevalence) data, and precompiled k-mer reference data too. Please see demo on how to load CARD databases [here](https://github.com/arpcard/state-of-the-card-2021/blob/main/day_1/installing_rgi/linux.sh)
 
-```bash
-rgi load -h
-wget https://card.mcmaster.ca/latest/data
-tar -xvf data ./card.json
-less card.json
-rgi load -i card.json --local
-ls
-```
 
 We don’t have time to analyze all 112 samples, so let’s analyze 1 as an example using a number of RGI options (the GitHub repo contains an EXCEL version of the *Ecoli_37_d.txt* file):
 
@@ -89,7 +81,7 @@ less Ecoli_37_d.json
 less Ecoli_37_d.txt
 ```
 
-I have pre-compiled Perfect and Strict results for all 112 samples, so let’s try RGI’s heat map tool (pre-compiled images can be downloaded from the GitHub repo, or viewed [here](https://github.com/arpcard/state-of-the-card-2019/tree/master/day_3/rgi_for_genomes/heatmaps)):
+I have pre-compiled Perfect and Strict results for all 112 samples, so let’s try RGI’s heat map tool (pre-compiled images can be downloaded from the GitHub repo, or viewed [here](https://github.com/arpcard/state-of-the-card-2021/tree/main/day_1/rgi_for_genomes/heatmaps)):
 
 ```bash
 ls /home/agmcarthur/ecoli_112_json
@@ -101,26 +93,9 @@ rgi heatmap -i /home/agmcarthur/ecoli_112_json -o cluster_both_frequency -f -clu
 ls
 ```
 
-Lastly, let's predict pathogen-of-origin for the Perfect and Strict RGI hits for *Ecoli_37_a.json*. First, we need to create the k-mer reference data:
+Lastly, let's predict pathogen-of-origin for the Perfect and Strict RGI hits for *Ecoli_37_a.json*.
 
-```
-rgi kmer_build -h
-rgi card_annotation -i card.json > annotation.log 2>&1
-wget -O wildcard_data.tar.bz2 https://card.mcmaster.ca/latest/variants
-mkdir -p wildcard
-tar -xvf wildcard_data.tar.bz2 -C wildcard
-ls
-```
-
-Note that the next command depends on the version of CARD data and may need to be updated (**this will take a lot of time, precompiled reference data available from your instructor**):
-
-```
-rgi kmer_build -i wildcard/ -c card_database_v3.0.1.fasta -k 61 > kmer_build.61.log 2>&1
-rgi load --kmer_database 61_kmer_db.json --amr_kmers all_amr_61mers.txt --kmer_size 61 --local --debug > kmer_load.61.log 2>&1
-ls
-```
-
-Now analyze the RGI output, which will create text output with k-mer results appended to RGI results (the GitHub repo contains an EXCEL version of the *Ecoli_37_a.61kmer_61mer_analysis_rgi_summary.txt* file):
+Now analyze the RGI output, which will create text output with k-mer results appended to RGI results (the GitHub repo contains precomputed *Ecoli_37_a.61kmer_61mer_analysis_rgi_summary.txt* result files):
 
 ```
 rgi kmer_query -h
@@ -131,10 +106,10 @@ rgi kmer_query -n 8 -i Ecoli_37_a.json --rgi -k 61 --minimum 10 -o Ecoli_37_a.61
 
 The standard RGI tool can be used to analyze metagenomics data, but only for merged reads with Prodigal calling of partial open reading frames (ORFs). This is a computationally expensive approach, since each merged read set may contain a partial ORF, requiring RGI to perform massive amounts of BLAST/DIAMOND analyses. While computationally intensive (and thus generally not recommended), this does allow analysis of metagenomic sequences in protein space, overcoming issues of high-stringency read mapping relative to nucleotide reference databases. Assembled metagenomic data or short contig / low quality data in general could alternatively be used instead of merged reads.
 
-Lanza et al. ([Microbiome 2018, 15:11](https://www.ncbi.nlm.nih.gov/pubmed/29335005)) used bait capture to sample human gut microbiomes for AMR genes. Use RGI under “Low quality / coverage” and “Perfect, Strict and Loose hits” settings, analyze the first 500 merged metagenomic reads from their analysis (file *ResCap_first_500.fasta*). Take a close look at the predicted “sul2” and “sul4” hits. How good is the evidence for these AMR genes? The GitHub repo contains an EXCEL version of the *ResCap_first_500.txt* file.
+Lanza et al. ([Microbiome 2018, 15:11](https://www.ncbi.nlm.nih.gov/pubmed/29335005)) used bait capture to sample human gut microbiomes for AMR genes. Use RGI under “Low quality / coverage” and “Perfect, Strict and Loose hits” settings, analyze the first 500 merged metagenomic reads from their analysis (file *ResCap_first_500.fasta*). Take a close look at the predicted “sul2” and “sul4” hits. How good is the evidence for these AMR genes? The GitHub repo contains precomputed tab-delimited *ResCap_first_500.txt* file.
 
 ```
-rgi main -i /home/agmcarthur/fasta/ResCap_first_500.fasta -o ResCap_first_500 -t contig -a DIAMOND -n 8 --local --clean --include_loose --split_prodigal_jobs --low_quality
+rgi main -i ResCap_first_500.fasta -o ResCap_first_500 -t contig -a DIAMOND -n 8 --local --clean --include_loose --split_prodigal_jobs --low_quality
 less ResCap_first_500.txt
 head -n 1 ResCap_first_500.txt | cut -f 6,9,10,21,24
 grep sul ResCap_first_500.txt | cut -f 6,9,10,21,24 | sort
