@@ -68,7 +68,7 @@ rgi -h
 First we need to acquire the latest AMR reference data from CARD. CARD data can be installed at the system level, but that requires a SysAdmin with root privileges or locally. The `rgi auto_load` command will add the [CARD Resistomes & Variants](https://card.mcmaster.ca/genomes) and [CARD Prevalence](https://card.mcmaster.ca/prevalence) data, and precompiled k-mer reference data too. Please see demo on how to load CARD databases [here](https://github.com/arpcard/state-of-the-card-2021/blob/main/day_1/installing_rgi/linux.sh)
 
 
-We don’t have time to analyze all 112 samples, so let’s analyze 1 as an example using a number of RGI options (the GitHub repo contains an EXCEL version of the *Ecoli_37_d.txt* file):
+We don’t have time to analyze all 112 samples, so let’s analyze 1 as an example using a number of RGI options (the GitHub repo contains precomputed *Ecoli_37_d.txt* result file):
 
 ```bash
 rgi main –h
