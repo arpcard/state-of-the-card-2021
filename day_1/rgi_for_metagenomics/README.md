@@ -23,7 +23,7 @@ The Resistance Gene Identifier for metagenomics (RGI*BWT for short) has several 
 
 ## Demonstration Data
 
-> If you are using your laptop instead of a CARD RGI account on UPPSALA, your instructor will provide you with a secure download link for the demonstration data. While this is anonymized data, it cannot be shared outside of the IIDR. Start this download now.
+> We are going to use the data from Lanza et al paper.
 
 ## Build the Reference Files
 
@@ -48,11 +48,11 @@ Lanza et al. ([Microbiome 2018, 15:11](https://www.ncbi.nlm.nih.gov/pubmed/29335
 
 ```
 rgi bwt -h
-rgi bwt --read_one gut_R1.fastq.gz --read_two gut_R2.fastq.gz --aligner kma --output_file AMRmeta --debug --local --threads 8 --include_wildcard > AMRmeta.log 2>&1
+rgi bwt --read_one gut_R1.fastq.gz --read_two gut_R2.fastq.gz --aligner kma --output_file AMRmeta --debug --local --threads 8 > AMRmeta.log 2>&1
 rgi kmer_query -n 8 -i AMRmeta.sorted.length_100.bam --bwt -k 61 --minimum 10 -o AMRmeta.sorted.length_100.bam.61 --local --debug > AMRmeta.sorted.length_100.bam.61.query.log 2>&1
 ```
 
-RGI for metagenomics provides several layers of output, all available in the GitHub repo as pre-compiled EXCEL spreadsheets:
+RGI for metagenomics provides several layers of output, all available in the GitHub repo as pre-compiled tab-delimited files:
 
 | File | Description |
 | -------- | -------- |
