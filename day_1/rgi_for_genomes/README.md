@@ -72,10 +72,10 @@ We don’t have time to analyze all 112 samples, so let’s analyze 1 as an exam
 
 ```bash
 rgi main –h
-rgi main -i /home/agmcarthur/ecoli_112_fasta/Ecoli_37.fasta -o Ecoli_37_a -t contig -a BLAST -n 8 --local --clean
-rgi main -i /home/agmcarthur/ecoli_112_fasta/Ecoli_37.fasta -o Ecoli_37_b -t contig -a DIAMOND -n 8 --local --clean
-rgi main -i /home/agmcarthur/ecoli_112_fasta/Ecoli_37.fasta -o Ecoli_37_c -t contig -a DIAMOND -n 8 --local --clean --include_loose
-rgi main -i /home/agmcarthur/ecoli_112_fasta/Ecoli_37.fasta -o Ecoli_37_d -t contig -a DIAMOND -n 8 --local --clean --include_loose --split_prodigal_jobs
+rgi main -i Ecoli_37.fasta -o Ecoli_37_a -t contig -a BLAST -n 8 --local --clean
+rgi main -i Ecoli_37.fasta -o Ecoli_37_b -t contig -a DIAMOND -n 8 --local --clean
+rgi main -i Ecoli_37.fasta -o Ecoli_37_c -t contig -a DIAMOND -n 8 --local --clean --include_loose
+rgi main -i Ecoli_37.fasta -o Ecoli_37_d -t contig -a DIAMOND -n 8 --local --clean --include_loose --split_prodigal_jobs
 ls
 less Ecoli_37_d.json
 less Ecoli_37_d.txt
