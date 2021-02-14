@@ -23,7 +23,7 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 
 | Time | Topic | Link |
 | -------- | -------- | -------- |
-| pre-recorded | CARD Website Demonstration | link pending |
+| pre-recorded | CARD Website Demonstration | [link](https://www.youtube.com/watch?v=Tb6K1NQ6NTs&ab_channel=McArthurLab) |
 | pre-recorded | Command line - Installing RGI | link pending |
 | pre-recorded | Command line - RGI for Genomes or Assemblies | link pending |
 | pre-recorded | Command line - RGI for Metagenomics | link pending |
