@@ -1,41 +1,20 @@
 # State of the CARD 2021 Presentations & Demonstrations
  
-*Live Presentations, Pre-Recorded Demonstrations, Open or Private Q&A Sessions*
+*Live Presentations, Pre-Recorded Demonstrations, Open or Private Q&A Sessions - February 16 & 17, 2021*
 
 The McArthur lab at McMaster University (Canada) is pleased to present a series of lectures, demonstrations, and question & answer sessions for the Comprehensive Antibiotic Resistance Database (card.mcmaster.ca) and its associated Resistance Gene Identifier (RGI) software.
 
-**[REGISTRATION & ZOOM LINK](https://zoom.us/webinar/register/WN_w8hrD-ImQmW4CPBytpI74g)**
-
-**All times are Eastern Standard Time**
-
-**Day 1 Tuesday, February 16, 2021. Presenters will be available to answer questions for the last 15 minutes of their presentations.**
+**RECORDED CONTENT**
 
 | Time | Topic | Link |
 | -------- | -------- | -------- |
-| 8:00-9:15 am | State of the CARD 2021 Lecture | live presentation, [recording](https://www.youtube.com/watch?v=W16J9MmXkZY&list=PLZWtOzpDh6LT1KDIEvoN2w99huQDRYh2A&index=6&ab_channel=McArthurLab) |
-| 9:15-10:00 am | Antibiotic Resistance Ontology, Resistomes & Variants | live presentation, [recording](https://www.youtube.com/watch?v=W16J9MmXkZY&list=PLZWtOzpDh6LT1KDIEvoN2w99huQDRYh2A&index=6&ab_channel=McArthurLab)  |
-| 10:00-10:45 am | Resistance Gene Identifier | live presentation, [recording](https://www.youtube.com/watch?v=W16J9MmXkZY&list=PLZWtOzpDh6LT1KDIEvoN2w99huQDRYh2A&index=6&ab_channel=McArthurLab)  |
-| 11:00-11:30 am | Open Questions & Answer session | live |
-| 2:30-3:45 pm | State of the CARD 2021 Lecture | repeat live presentation, [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
-| 3:45-4:30 pm | Antibiotic Resistance Ontology, Resistomes & Variants | repeat live presentation, [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
-| 4:30-5:15 pm | Resistance Gene Identifier | repeat live presentation, [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
-| 5:15-5:45 pm | Open Questions & Answer session | live |
-
-| Time | Topic | Link |
-| -------- | -------- | -------- |
+| live presentation | State of the CARD 2021 Lecture | [recording](https://www.youtube.com/watch?v=W16J9MmXkZY&list=PLZWtOzpDh6LT1KDIEvoN2w99huQDRYh2A&index=6&ab_channel=McArthurLab) |
+| live presentation | Antibiotic Resistance Ontology, Resistomes & Variants | [recording](https://www.youtube.com/watch?v=W16J9MmXkZY&list=PLZWtOzpDh6LT1KDIEvoN2w99huQDRYh2A&index=6&ab_channel=McArthurLab)  |
+| live presentation | Resistance Gene Identifier | [recording](https://www.youtube.com/watch?v=W16J9MmXkZY&list=PLZWtOzpDh6LT1KDIEvoN2w99huQDRYh2A&index=6&ab_channel=McArthurLab)  |
+| live presentation | State of the CARD 2021 Lecture | [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
+| live presentation | Antibiotic Resistance Ontology, Resistomes & Variants | [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
+| live presentation | Resistance Gene Identifier | [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
 | pre-recorded | CARD Website Demonstration | [link](https://www.youtube.com/watch?v=Tb6K1NQ6NTs&ab_channel=McArthurLab) |
 | pre-recorded | Command line - Installing RGI | [link](https://www.youtube.com/watch?v=pZI14a-K5HY&feature=youtu.be&ab_channel=McArthurLab) |
 | pre-recorded | Command line - RGI for Genomes or Assemblies | [link](https://www.youtube.com/watch?v=qLHpcpmuoik&feature=youtu.be&ab_channel=McArthurLab)|
 | pre-recorded | Command line - RGI for Metagenomics | [link](https://www.youtube.com/watch?v=TmZN29NppJw&feature=youtu.be&ab_channel=McArthurLab)|
-
-**Day 2 Wednesday, February 17, 2021. Question & Answer Sessions**
-
-| Time | Topic | Link |
-| -------- | -------- | -------- | 
-| 8:00-10:00 am | Open Question & Answer Help Session | cancelled, contact card@mcmaster.ca for an appointment |
-| 12:00-5:00 pm | Private 30 minute appointments with a member of the CARD team | [Sign up for a Private ZOOM Meeting](https://forms.gle/DFhZnS8gHZu893fm8) |
-| 3:00-5:00 pm | Open Question & Answer Help Session | cancelled, contact card@mcmaster.ca for an appointment |
-
-Requests for private meetings will be moderated by McMaster's Industrial Liaison Office.
-
-If you require a Non-Disclosure Agreement or wish to schedule a private meeting on a different date, please email Mr. Rafik El Werfalli at elwerfr@mcmaster.ca.
