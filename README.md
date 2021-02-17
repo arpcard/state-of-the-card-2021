@@ -16,9 +16,9 @@ The McArthur lab at McMaster University (Canada) is pleased to present a series 
 | 9:15-10:00 am | Antibiotic Resistance Ontology, Resistomes & Variants | live presentation, recording available afterwards |
 | 10:00-10:45 am | Resistance Gene Identifier | live presentation, recording available afterwards |
 | 11:00-11:30 am | Open Questions & Answer session | live |
-| 2:30-3:45 pm | State of the CARD 2021 Lecture | repeat live presentation |
-| 3:45-4:30 pm | Antibiotic Resistance Ontology, Resistomes & Variants | repeat live presentation |
-| 4:30-5:15 pm | Resistance Gene Identifier | repeat live presentation |
+| 2:30-3:45 pm | State of the CARD 2021 Lecture | repeat live presentation, [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
+| 3:45-4:30 pm | Antibiotic Resistance Ontology, Resistomes & Variants | repeat live presentation, [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
+| 4:30-5:15 pm | Resistance Gene Identifier | repeat live presentation, [recording](https://www.youtube.com/watch?v=VMDaSqOImu0&ab_channel=McArthurLab) |
 | 5:15-5:45 pm | Open Questions & Answer session | live |
 
 | Time | Topic | Link |
